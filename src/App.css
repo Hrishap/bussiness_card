@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5679c0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,110 @@
   to {
     transform: rotate(360deg);
   }
+}
+*{
+  background-color: #23252C;
+}
+ .profile-picture{
+  height: 317px;
+  width: 317px;
+  background-color: #1A1B21;
+} 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  margin:auto;
+  width: 400px;
+  height:100vh;
+  background-color: #1A1B21;
+  border-radius: 9px;
+  box-shadow: 0px 0px 4px black;
+
+}
+.Name{
+ /* display: inline; */
+ padding-left: 50px;
+ margin: 0;
+ color: white;
+ 
+}
+.designation{
+  padding-left: 70px;
+ margin: 0;
+ color:#F3BF99;
+ text-shadow: 1px 1px 0px black;
+}
+.website{
+  padding-left: 70px;
+  color: white;
+}
+.btn{
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.Email{
+  background-color: white;
+  padding-left: 13px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.Email>img{
+  padding-right: 10px;
+  background-color: white;
+}
+.LinkedIn{
+  padding-left: 11px;
+  padding-right: 13px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 6px;
+  background-color:  #5093E2;
+   color: white;
+   cursor: pointer;
+  
+}
+.LinkedIn>img{
+  background-color:  #5093E2;
+  padding-right:8px;
+}
+.About{
+  color: white;
+  background-color: #1A1B21;
+}
+.About>h1{
+  background-color: #1A1B21;
+}
+.About>p{
+  background-color: #1A1B21;
+  
+}
+.Interest{
+  color: white;
+  background-color: #1A1B21;
+}
+.Interest>h1{
+  background-color: #1A1B21;
+}
+.Interest>p{
+  background-color: #1A1B21;
+  
+}
+.footer--icons{
+  background-color: black;
+  border-radius: 4px;
+}
+.footer--icons>img{
+    padding: 35px;
+    background-color: black;
+    height: 30px;
+    width: 30px;
 }
